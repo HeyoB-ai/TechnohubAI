@@ -21,7 +21,7 @@ const Home: React.FC = () => {
             </span>
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] text-black mb-8 animate-in slide-in-from-bottom-4 duration-700">
               Strategische AI voor bedrijven. <br/>
-              <span className="text-th-red">Industrial AI</span> voor productie.
+              <span className="text-th-red">Industrial AI</span> voor productie. Techniek.
             </h1>
             <p className="text-xl text-gray-600 mb-10 max-w-xl animate-in slide-in-from-bottom-6 duration-1000">
               AI is geen speeltje, het is de kern van uw toekomstige bedrijfsstrategie. 
