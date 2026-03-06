@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <li><Link to="/industrial-ai" className="text-gray-500 hover:text-th-red transition-colors">Industrial AI</Link></li>
               <li><Link to="/dark-factories" className="text-gray-500 hover:text-th-red transition-colors">Dark Factories</Link></li>
               <li><a href="https://technohub.nl" target="_blank" className="text-gray-500 hover:text-th-red transition-colors">TechnoHUB.nl</a></li>
-              <li><a href="https://technohubmkbacademie.nl" target="_blank" className="text-gray-500 hover:text-th-red transition-colors">MKB Academie</a></li>
+              <li><a href="https://technohub-mkbacademie.nl" target="_blank" className="text-gray-500 hover:text-th-red transition-colors">MKB Academie</a></li>
             </ul>
           </div>
 
@@ -41,8 +41,8 @@ const Footer: React.FC = () => {
             <h4 className="text-black font-black uppercase tracking-widest text-xs mb-6">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-500">
               <li className="font-bold text-black">TechnoHUB Woerden</li>
-              <li>Spoorlaan 3</li>
-              <li>3445 AE Woerden</li>
+              <li>Industrieweg 2b</li>
+              <li>3442 AE Woerden</li>
               <li className="pt-4 font-bold text-th-red">info@technohub.nl</li>
             </ul>
             <div className="flex space-x-4 mt-6">
