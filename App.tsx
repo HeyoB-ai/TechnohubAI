@@ -10,6 +10,7 @@ import Programma from './pages/Programma';
 import IndustrialAI from './pages/IndustrialAI';
 import DarkFactories from './pages/DarkFactories';
 import PartnersPage from './pages/PartnersPage';
+import MetrolijnInteractief from './pages/MetrolijnInteractief';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/industrial-ai" element={<IndustrialAI />} />
             <Route path="/dark-factories" element={<DarkFactories />} />
             <Route path="/partners" element={<PartnersPage />} />
+            <Route path="/metrolijn-interactief" element={<MetrolijnInteractief />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

@@ -24,6 +24,7 @@ const Navbar: React.FC = () => {
             <Link to="/" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Home</Link>
             <Link to="/programma" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Programma</Link>
             <Link to="/metrolijnen" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Metrolijnen</Link>
+            <Link to="/metrolijn-interactief" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Interactief</Link>
             <Link to="/industrial-ai" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Industrial AI</Link>
             <Link to="/dark-factories" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Dark Factories</Link>
             <Link to="/partners" className="text-xs font-bold uppercase tracking-widest hover:text-th-red transition-colors">Partners</Link>
@@ -52,6 +53,7 @@ const Navbar: React.FC = () => {
             <Link to="/" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Home</Link>
             <Link to="/programma" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Programma</Link>
             <Link to="/metrolijnen" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Metrolijnen</Link>
+            <Link to="/metrolijn-interactief" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Interactief</Link>
             <Link to="/industrial-ai" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Industrial AI</Link>
             <Link to="/dark-factories" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Dark Factories</Link>
             <Link to="/partners" onClick={closeMenu} className="text-sm font-bold uppercase tracking-widest">Partners</Link>
