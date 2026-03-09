@@ -67,10 +67,10 @@ export const PARTNERS: Partner[] = [
     id: 'aipanda',
     name: 'AI Panda',
     role: 'Strategische AI Partner',
-    logo: 'https://picsum.photos/seed/aipanda/200/100',
+    logo: 'https://aipanda.nl/wp-content/uploads/2023/09/Logo-AIPanda-final555px.png',
     description: 'AI Panda begeleidt organisaties bij het strategisch inzetten van AI. Van bewustwording en strategie tot implementatie en borging — AI Panda maakt AI toegankelijk en werkbaar voor elke organisatie.',
     ctaText: 'Plan kennismaking met Jack',
-    link: 'https://www.aipanda.com'
+    link: 'https://www.aipanda.nl'
   },
   {
     id: 'edih',

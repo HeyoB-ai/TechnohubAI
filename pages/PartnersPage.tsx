@@ -18,7 +18,7 @@ const PartnersPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row gap-12 items-center bg-gray-50 p-12 rounded-[40px] border border-gray-100">
             <div className="w-full lg:w-1/3">
               <div className="aspect-square rounded-3xl overflow-hidden bg-gray-200">
-                <img src="https://picsum.photos/seed/jack/600/600" alt="AI Panda" className="w-full h-full object-cover" />
+                <img src="https://aipanda.nl/wp-content/uploads/2023/09/Logo-AIPanda-final555px.png" alt="AI Panda" className="w-full h-full object-contain p-8 bg-white" />
               </div>
             </div>
             <div className="w-full lg:w-2/3">
@@ -34,7 +34,7 @@ const PartnersPage: React.FC = () => {
                 <a href="#/contact" className="bg-black text-white px-8 py-4 rounded-xl font-black hover:bg-th-red transition-all">
                   Plan kennismaking met Jack
                 </a>
-                <a href="https://www.aipanda.com" target="_blank" rel="noopener noreferrer" className="border-2 border-black text-black px-8 py-4 rounded-xl font-black hover:border-th-red hover:text-th-red transition-all">
+                <a href="https://www.aipanda.nl" target="_blank" rel="noopener noreferrer" className="border-2 border-black text-black px-8 py-4 rounded-xl font-black hover:border-th-red hover:text-th-red transition-all">
                   Bezoek website
                 </a>
               </div>
