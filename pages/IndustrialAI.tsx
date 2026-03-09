@@ -11,7 +11,7 @@ const IndustrialAI: React.FC = () => {
     {
       title: 'Predictive Maintenance',
       desc: 'Analyseer trillingen en temperatuur om falen te voorspellen vóórdat het gebeurt.',
-      img: 'https://images.unsplash.com/photo-1581092335397-9583ee92d0bb?auto=format&fit=crop&q=80&w=800'
+      img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800'
     },
     {
       title: 'Energy Optimisation',
