@@ -65,20 +65,20 @@ export const METRO_LINES: MetroLine[] = [
 export const PARTNERS: Partner[] = [
   {
     id: 'aipanda',
-    name: 'AIPanda',
+    name: 'AI Panda',
     role: 'Strategische AI Partner',
     logo: 'https://picsum.photos/seed/aipanda/200/100',
-    description: 'Inhoudelijke partner voor AI strategie en implementatie begeleiding.',
+    description: 'AI Panda begeleidt organisaties bij het strategisch inzetten van AI. Van bewustwording en strategie tot implementatie en borging — AI Panda maakt AI toegankelijk en werkbaar voor elke organisatie.',
     ctaText: 'Plan kennismaking met Jack',
-    link: '/partners'
+    link: 'https://www.aipanda.com'
   },
   {
     id: 'edih',
-    name: 'EDIH',
-    role: 'Europese Innovatie Hub',
-    logo: 'https://picsum.photos/seed/edih/200/100',
-    description: 'Financiële en technische ondersteuning via subsidies en trajecten.',
+    name: 'EDIH Digital Hub Noordwest',
+    role: 'Europese Digitale Innovatie Hub',
+    logo: 'https://edih-dhnw.nl/wp-content/themes/FoundationPress-child/assets/img/EDIH-logo.svg',
+    description: 'EDIH Digital Hub Noordwest is het digitale oplaadpunt voor het mkb in Utrecht, Noord-Holland en Flevoland. Als onderdeel van het Digital Europe Programme van de EU helpen zij bedrijven met prototypes, testfaciliteiten, trainingen en advies bij financiering om de digitale transitie te versnellen.',
     ctaText: 'Check EDIH-ondersteuning',
-    link: '/partners'
+    link: 'https://edih-dhnw.nl'
   }
 ];
