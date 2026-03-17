@@ -10,7 +10,6 @@ import Programma from './pages/Programma';
 import IndustrialAI from './pages/IndustrialAI';
 import DarkFactories from './pages/DarkFactories';
 import PartnersPage from './pages/PartnersPage';
-import Admin from './pages/Admin';
 
 const App: React.FC = () => {
   return (
@@ -26,7 +25,6 @@ const App: React.FC = () => {
             <Route path="/dark-factories" element={<DarkFactories />} />
             <Route path="/partners" element={<PartnersPage />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />
