@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
           <div>
             <h1 className="text-6xl font-black text-black mb-8 leading-tight">Zet de volgende <span className="text-th-red">stap</span> in AI.</h1>
             <p className="text-xl text-gray-600 mb-12">
-              Of je nu wilt aanmelden voor het programma "Concreet aan de slag met AI" op 9 maart, of een vrijblijvende intake wilt voor een Factory Scan: wij staan klaar.
+              Of je nu wilt aanmelden voor het eerstvolgende programma "Concreet aan de slag met AI", of een vrijblijvende intake wilt voor een Factory Scan: wij staan klaar.
             </p>
             
             <div className="space-y-8 mb-12">
@@ -138,7 +138,7 @@ const Contact: React.FC = () => {
                   className="w-5 h-5 accent-th-red" 
                   onChange={(e) => setFormData({...formData, programma: e.target.checked})}
                 />
-                <label htmlFor="prog" className="text-sm font-bold text-gray-700">Ik wil me aanmelden voor het programma "Concreet aan de slag met AI" op 9 maart.</label>
+                <label htmlFor="prog" className="text-sm font-bold text-gray-700">Ik wil me aanmelden voor het programma "Concreet aan de slag met AI".</label>
               </div>
 
               <button className="w-full bg-th-red text-white py-5 rounded-xl font-black text-xl hover:bg-black transition-all shadow-xl shadow-th-red/20">
