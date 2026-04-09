@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-3xl">
             <span className="inline-block px-4 py-2 rounded-full bg-th-red/10 text-th-red text-sm font-bold uppercase tracking-widest mb-6 animate-in slide-in-from-bottom-2 duration-500">
-              Start 9 Maart: Concreet aan de slag met AI.
+              Start nog dit voorjaar: Concreet aan de slag met AI.
             </span>
             <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] text-black mb-8 animate-in slide-in-from-bottom-4 duration-700">
               Strategische AI voor bedrijven. <br/>
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 animate-in slide-in-from-bottom-8 duration-1000 delay-200">
               <Link to="/contact" className="bg-th-red text-white px-8 py-5 rounded-lg text-lg font-black hover:bg-black transition-all shadow-xl shadow-th-red/20 text-center">
-                Meld je aan voor 9 maart
+                Meld je aan — Start nu
               </Link>
               <a href="#" className="border-2 border-black text-black px-8 py-5 rounded-lg text-lg font-bold hover:bg-black hover:text-white transition-all text-center">
                 Download PDF Overzicht
