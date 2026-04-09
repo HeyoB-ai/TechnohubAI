@@ -41,7 +41,19 @@ const Home: React.FC = () => {
               <div className="flex flex-wrap gap-2">
                 {["Heeren Bouwmeester", "Amstel Engineering", "Brouwer Sign", "Stone Cold", "Elektro Internationaal", "Schalkwijk Totaalafbouw"].map((bedrijf) => (
                   <span key={bedrijf} className="flex items-center gap-2 bg-white border border-gray-200 shadow-sm px-4 py-2 rounded-full">
-                    <span className="w-2 h-2 rounded-full bg-th-red flex-shrink-0" />
+                    {bedrijf === "Heeren Bouwmeester" ? (
+                      <img
+                        src="https://deheerenbouwmeester.nl/wp-content/uploads/2024/04/cropped-logo-DHB-rgb-website-2-1-300x86.png"
+                        alt="Heeren Bouwmeester logo"
+                        className="h-5 object-contain flex-shrink-0"
+                        onError={(e) => {
+                          e.currentTarget.style.display = "none";
+                          e.currentTarget.nextElementSibling?.classList.remove("hidden");
+                        }}
+                      />
+                    ) : (
+                      <span className="w-2 h-2 rounded-full bg-th-red flex-shrink-0" />
+                    )}
                     <span className="text-sm font-bold text-gray-700">{bedrijf}</span>
                   </span>
                 ))}
