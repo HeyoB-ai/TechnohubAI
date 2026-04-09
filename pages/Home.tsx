@@ -35,9 +35,21 @@ const Home: React.FC = () => {
                 Download PDF Overzicht
               </a>
             </div>
+
+            <div className="mt-10 animate-in slide-in-from-bottom-8 duration-1000 delay-300">
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">Zij starten als eerste:</p>
+              <div className="flex flex-wrap gap-2">
+                {["Heeren Bouwmeester", "Amstel Engineering", "Brouwer Sign", "Stone Cold", "Elektro Internationaal", "Schalkwijk Totaalafbouw"].map((bedrijf) => (
+                  <span key={bedrijf} className="flex items-center gap-2 bg-white border border-gray-200 shadow-sm px-4 py-2 rounded-full">
+                    <span className="w-2 h-2 rounded-full bg-th-red flex-shrink-0" />
+                    <span className="text-sm font-bold text-gray-700">{bedrijf}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
-        
+
         {/* Subtle Decorative Elements */}
         <div className="hidden lg:block absolute right-0 bottom-0 w-1/3 h-full -z-10 opacity-10">
           <svg className="w-full h-full" viewBox="0 0 400 600">
